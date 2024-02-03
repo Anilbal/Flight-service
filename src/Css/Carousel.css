@@ -1,0 +1,36 @@
+.carosuel{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+.carosuel img{
+    height: 75vh;
+    width:70%;
+}
+.carousel-info{
+    display: flex;
+    flex-direction: column;
+    padding:50px 50px;
+    gap: 40px;
+}
+.carousel-info h2{
+    font-size: 50px;
+    color: blue;
+}
+.carousel-info button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 0.3rem;
+    transition: all 0.5s;
+}
+.carousel-info button:hover{
+    background: #edede9;
+    color: black;
+    transition: all 0.5s;
+}
